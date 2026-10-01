@@ -72,11 +72,6 @@
             flavor = "tap-preferred";
         };
 
-        &HMRShiftL:
-
-
-        &HMRShiftL:
-
         HMR: HMR {
             compatible = "zmk,behavior-hold-tap";
             label = "HMR";
@@ -137,14 +132,28 @@
         RhinoLayer {
             display-name = "RHI";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+/* Oben:  Esc, Line, PLine, Rect, Circle, Offset (Hyper+Q W E R T) */
+&kp ESC  &kp LS(LC(LA(LG(Q))))  &kp LS(LC(LA(LG(W))))  &kp LS(LC(LA(LG(E))))  &kp LS(LC(LA(LG(R))))  &kp LS(LC(LA(LG(T))))  &trans  &trans  &trans  &trans  &trans  &trans
+/* Mitte: Alt, Move, Copy, Rotate, Scale, Mirror (Hyper+A S D F G) */
+&kp LALT  &kp LS(LC(LA(LG(A))))  &kp LS(LC(LA(LG(S))))  &kp LS(LC(LA(LG(D))))  &kp LS(LC(LA(LG(F))))  &kp LS(LC(LA(LG(G))))  &trans  &trans  &trans  &trans  &trans  &trans
+/* Unten: Shift, Undo (Cmd+Z), Trim, Extrude, Join, ZoomExtents (Hyper+X C V B) */
+&kp LSHFT  &kp LG(Z)  &kp LS(LC(LA(LG(X))))  &kp LS(LC(LA(LG(C))))  &kp LS(LC(LA(LG(V))))  &kp LS(LC(LA(LG(B))))  &trans  &trans  &trans  &trans  &trans  &trans
+/* Daumen: Cmd, NAV, Space | rechts durchgereicht */
+&kp LGUI  &mo 1  &kp SPACE  &trans  &trans  &trans
             >;
         };
 
         BlenderLayer {
             display-name = "BLE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+/* Oben:  Esc, Tab, X, Y, Z, A */
+&kp ESC  &kp TAB  &kp X  &kp Y  &kp Z  &kp A  &trans  &trans  &trans  &trans  &trans  &trans
+/* Mitte: Alt, G, R, S, E, I */
+&kp LALT  &kp G  &kp R  &kp S  &kp E  &kp I  &trans  &trans  &trans  &trans  &trans  &trans
+/* Unten: Shift, Numpad 1 (Front), 3 (Rechts), 7 (Oben), 5 (Persp/Ortho), . (Auswahl einpassen) */
+&kp LSHFT  &kp KP_N1  &kp KP_N3  &kp KP_N7  &kp KP_N5  &kp KP_DOT  &trans  &trans  &trans  &trans  &trans  &trans
+/* Daumen: Cmd, NAV, H (Verstecken) | rechts durchgereicht */
+&kp LGUI  &mo 1  &kp H  &trans  &trans  &trans
             >;
         };
 
