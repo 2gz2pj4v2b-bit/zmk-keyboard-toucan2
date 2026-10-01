@@ -74,9 +74,9 @@
 
         &HMRShiftL:
 
-        _HMRShiftL {
+        HMRShiftLHMRShiftL: _HMRShiftL {
             compatible = "zmk,behavior-hold-tap";
-            label = "&HMRSHIFTL";
+            label = "HMRSHIFTL";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -89,7 +89,16 @@
 
         &HMRShiftL:
 
-        _HMRShiftL { compatible = "zmk,behavior-hold-tap"; };
+        HMRHMR: _HMRShiftL {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            tapping-term-ms = <200>;
+            hold-trigger-on-release;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+        };
     };
 
     keymap {
@@ -98,7 +107,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp ESC  &mt F1 Q  &mt F2 W  &mt F3 E  &mt F4 R  &mt F5 T  &mt F6 Y  &mt F7 U  &mt F8 I  &mt F9 O  &mt F10 P  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HMR LEFT_GUI D  &&HMRShiftL LEFT_SHIFT F  &kp G  &kp H  &HMRShiftR RIGHT_SHIFT R  &HMR RIGHT_GUI K  &HMR L L  &kp LBKT  &mt NUHS LG(MINUS)  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SEMI  &kp SQT  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &mo 2  &kp RCTRL
+&kp ESC  &mt F1 Q  &mt F2 W  &mt F3 E  &mt F4 R  &mt F5 T  &mt F6 Y  &mt F7 U  &mt F8 I  &mt F9 O  &mt F10 P  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HMR LEFT_GUI D  &HMRShiftL LEFT_SHIFT F  &kp G  &HMRShiftR RIGHT_SHIFT R  &HMR RIGHT_GUI K  &HMR L L  &kp LBKT  &mt NUHS LG(MINUS)  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SEMI  &kp SQT  &kp LGUI  &mo 1  &kp SPACE  &kp RET  &mo 2  &kp RCTRL
             >;
         };
 
