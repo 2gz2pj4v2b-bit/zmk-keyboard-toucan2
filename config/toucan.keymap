@@ -125,7 +125,7 @@
         num {
             display-name = "num";
             bindings = <
-&kp TAB  &kp LS(LG(NUMBER_4))  &kp N7  &kp N8  &kp N9  &kp FSLH  &kp C_BRI_UP  &kp C_BRIGHTNESS_DEC  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp BSPC  &trans  &kp LS(LG(NUMBER_3))  &kp NUMBER_4  &kp N5  &kp N6  &mt KP_DOT COMMA  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LSHFT  &studio_unlock  &kp N1  &kp N2  &kp N3  &kp N0  &kp LS(LA(LG(LEFT_ARROW)))  &kp LS(LA(LG(DOWN_ARROW)))  &kp LS(LA(LG(UP_ARROW)))  &kp LS(LA(LG(RIGHT_ARROW)))  &bt BT_SEL 2  &bt BT_SEL 3  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &kp LS(LG(N5))  &kp N7  &kp N8  &kp N9  &kp FSLH  &kp C_BRI_UP  &kp C_BRIGHTNESS_DEC  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp BSPC  &studio_unlock  &kp LS(LG(NUMBER_4))  &kp NUMBER_4  &kp N5  &kp N6  &mt KP_DOT COMMA  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LSHFT  &kp LS(LG(NUMBER_3))  &kp N1  &kp N2  &kp N3  &kp N0  &kp LS(LA(LG(LEFT_ARROW)))  &kp LS(LA(LG(DOWN_ARROW)))  &kp LS(LA(LG(UP_ARROW)))  &kp LS(LA(LG(RIGHT_ARROW)))  &bt BT_SEL 2  &bt BT_SEL 3  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
