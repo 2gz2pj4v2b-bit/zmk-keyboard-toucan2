@@ -104,7 +104,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&mt ESC TAB  &mt F1 Q  &mt F2 W  &mt F3 E  &mt F4 R  &mt F5 T  &mt F6 Y  &mt F7 U  &mt F8 I  &mt F9 O  &mt F10 P  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HMR LEFT_GUI D  &HMRShiftL LEFT_SHIFT F  &kp G  &kp H  &HMRShiftR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &kp LEFT_BRACE  &mt NON_US_HASH MINUS  &kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON  &kp APOS  &kp LEFT_GUI  &mo 3  &mt ENTER SPACE  &kp ENTER  &mo 4  &kp RALT
+&mt ESC TAB  &mt F1 Q  &mt F2 W  &mt F3 E  &mt F4 R  &mt F5 T  &mt F6 Y  &mt F7 U  &mt F8 I  &mt F9 O  &mt F10 P  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT S  &HMR LEFT_GUI D  &HMRShiftL LEFT_SHIFT F  &kp G  &kp H  &HMRShiftR RIGHT_SHIFT J  &HMR RIGHT_GUI K  &HMR RIGHT_ALT L  &kp LEFT_BRACE  &mt NON_US_HASH MINUS  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON  &kp APOS  &kp LEFT_GUI  &mo 3  &mt ENTER SPACE  &kp ENTER  &mo 4  &kp RALT
             >;
         };
 
@@ -125,7 +125,7 @@
         num {
             display-name = "num";
             bindings = <
-&kp TAB  &kp LS(LG(N5))  &kp N7  &kp N8  &kp N9  &kp FSLH  &kp C_BRI_UP  &kp C_BRIGHTNESS_DEC  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp BSPC  &studio_unlock  &kp LS(LG(NUMBER_4))  &kp NUMBER_4  &kp N5  &kp N6  &mt KP_DOT COMMA  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LSHFT  &kp LS(LG(NUMBER_3))  &kp N1  &kp N2  &kp N3  &kp N0  &kp LS(LA(LG(LEFT_ARROW)))  &kp LS(LA(LG(DOWN_ARROW)))  &kp LS(LA(LG(UP_ARROW)))  &kp LS(LA(LG(RIGHT_ARROW)))  &bt BT_SEL 2  &bt BT_SEL 3  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
+&kp TAB  &kp LS(LG(N5))  &kp N7  &kp N8  &kp N9  &kp FSLH  &kp C_BRI_DEC  &kp C_BRI_INC  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp BSPC  &studio_unlock  &kp LS(LG(NUMBER_4))  &kp NUMBER_4  &kp N5  &kp N6  &mt KP_DOT COMMA  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &bt BT_SEL 0  &bt BT_SEL 1  &kp LSHFT  &kp LS(LG(NUMBER_3))  &kp N1  &kp N2  &kp N3  &kp N0  &kp LS(LA(LG(LEFT_ARROW)))  &kp LS(LA(LG(DOWN_ARROW)))  &kp LS(LA(LG(UP_ARROW)))  &kp LS(LA(LG(RIGHT_ARROW)))  &bt BT_SEL 2  &bt BT_SEL 3  &kp LGUI  &trans  &kp SPACE  &kp RET  &trans  &kp RALT
             >;
         };
 
