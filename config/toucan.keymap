@@ -111,7 +111,7 @@
         RhinoLayer {
             display-name = "RHI";
             bindings = <
-&kp ESC  &kp LS(LC(LA(LG(Q))))  &kp LS(LC(LA(LG(W))))  &kp LS(LC(LA(LG(E))))  &kp LS(LC(LA(LG(R))))  &kp LS(LC(LA(LG(T))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LALT  &kp LS(LC(LA(LG(A))))  &kp LS(LC(LA(LG(S))))  &kp LS(LC(LA(LG(D))))  &kp LS(LC(LA(LG(F))))  &kp LS(LC(LA(LG(G))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LSHFT  &kp LG(Z)  &kp LS(LC(LA(LG(X))))  &kp LS(LC(LA(LG(C))))  &kp LS(LC(LA(LG(V))))  &kp LS(LC(LA(LG(B))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &mo 3  &kp SPACE  &trans  &trans  &trans
+&kp ESC  &kp LS(LC(LA(LG(RA(L)))))  &kp LS(LC(LA(LG(W))))  &kp LS(LC(LA(LG(E))))  &kp LS(LC(LA(LG(R))))  &kp LS(LC(LA(LG(T))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LALT  &kp LS(LC(LA(LG(A))))  &kp LS(LC(LA(LG(S))))  &kp LS(LC(LA(LG(D))))  &kp LS(LC(LA(LG(F))))  &kp LS(LC(LA(LG(G))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LSHFT  &kp LG(Z)  &kp LS(LC(LA(LG(X))))  &kp LS(LC(LA(LG(C))))  &kp LS(LC(LA(LG(V))))  &kp LS(LC(LA(LG(B))))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &mo 3  &kp SPACE  &trans  &trans  &trans
             >;
         };
 
