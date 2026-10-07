@@ -126,10 +126,10 @@
             bindings = <&kp LG(TAB)>, <&kp LG(RIGHT)>, <&kp LG(D)>, <&kp LG(LEFT)>;
 #else
 bindings = <
-    &kp A
-    &kp B
-    &kp C
-    &kp D
+    &kp LC(UP)
+    &kp LC(RIGHT)
+    &kp LC(DOWN)
+    &kp LC(LEFT)
 >;
 #endif
         };
