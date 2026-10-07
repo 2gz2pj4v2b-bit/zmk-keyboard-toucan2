@@ -125,7 +125,12 @@
 #ifdef TOUCAN_WIN_MODE
             bindings = <&kp LG(TAB)>, <&kp LG(RIGHT)>, <&kp LG(D)>, <&kp LG(LEFT)>;
 #else
-            bindings = <&kp LC(LG(UP))>, <&kp LC(LG(RIGHT))>, <&kp LC(LG(DOWN))>, <&kp LC(LG(LEFT))>;
+bindings = <
+    &kp A
+    &kp B
+    &kp C
+    &kp D
+>;
 #endif
         };
     };
