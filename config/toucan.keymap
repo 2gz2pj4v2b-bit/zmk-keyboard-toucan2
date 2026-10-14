@@ -122,7 +122,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&mt ESC TAB  &mt F1 Q  &mt F2 W  &mt F3 F  &mt F4 P  &mt F5 B  &mt F6 J  &mt F7 L  &mt F8 U  &mt F9 OUT_Y  &mt F10 OUT_UE  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT R  &HMR LEFT_GUI S  &HMRShiftL LEFT_SHIFT T  &kp G  &kp M  &HMRShiftR RIGHT_SHIFT N  &HMR RIGHT_GUI E  &HMR RIGHT_ALT I  &kp O  &mt NON_US_HASH LA(LC(LEFT_BRACE))  &none  &kp OUT_Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp OUT_OE  &kp OUT_AE  &kp LEFT_GUI  &mo 3  &mt ENTER SPACE  &kp ENTER  &mo 4  &kp RALT
+&mt ESC TAB  &mt F1 Q  &mt F2 W  &mt F3 F  &mt F4 P  &mt F5 B  &mt F6 J  &mt F7 L  &mt F8 U  &mt F9 OUT_Y  &mt F10 NON_US_HASH  &kp BSPC  &kp LALT  &HML LEFT_CONTROL A  &HML LEFT_ALT R  &HMR LEFT_GUI S  &HMRShiftL LEFT_SHIFT T  &kp G  &kp M  &HMRShiftR RIGHT_SHIFT N  &HMR RIGHT_GUI E  &HMR RIGHT_ALT I  &kp O  &kp LEFT_BRACKET  &none  &kp OUT_Z  &kp X  &kp C  &kp D  &kp V  &kp K  &kp H  &kp COMMA  &kp DOT  &kp OUT_OE  &kp OUT_AE  &kp LEFT_GUI  &mo 3  &mt ENTER SPACE  &kp ENTER  &mo 4  &kp RALT
             >;
         };
 
